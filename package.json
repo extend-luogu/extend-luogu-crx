@@ -1,0 +1,23 @@
+{
+  "name": "extend-luogu",
+  "version": "0.0.1",
+  "devDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "description": "The web extension fork of extend-luogu",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxh06/extend-luogu-crx.git"
+  },
+  "author": "汪心禾",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wxh06/extend-luogu-crx/issues"
+  },
+  "homepage": "https://github.com/wxh06/extend-luogu-crx#readme"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Extend Luogu",
+    "description": "扩展洛谷",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["https://www.luogu.org/*"],
+          "js": ["modules/redirection.js"]
+        }
+    ],
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    }
+}
